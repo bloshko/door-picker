@@ -1,0 +1,109 @@
+#log-text {
+  color: #727272;
+  margin: auto;
+  text-align: cetner;
+ }
+.form-container form input, 
+.form-container form button {
+   display: block;
+ }
+
+#login-page {
+   margin-top: 90px;
+ }
+
+ section .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 397px;
+  height: 357px;
+}
+ 
+ .input-box {
+   margin: auto;
+   margin-top: 24px;
+   height: 48px;
+   width: 397px;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   line-break: 24px;
+ }
+ .login-btn {
+   background-color: #1DE278;
+   color: #FFFFFF;
+ }
+ .login-btn:hover {
+   background-color: rgb(39, 202, 115);
+   color: #FFFFFF;
+ }
+ .input-border{
+   border: 1px solid #C9C6C6;
+   padding: 17px;
+ }
+ .container input {
+   position: relative;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+ }
+ .container {
+   display: block;
+   position: relative;
+   padding-left: 35px;
+   margin: 20px 0;
+   cursor: pointer;
+   user-select: none;
+ }
+ 
+ .container input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+ }
+ 
+ .checkmark {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 28px;
+   border: 1px solid #A5A1A1 ;
+ }
+ 
+ .container:hover input ~ .checkmark {
+   background-color: #ccc;
+ }
+ 
+ .container input:checked ~ .checkmark {
+   background-color: #1DE278;
+   border: none;
+ }
+ 
+ .checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ .container input:checked ~ .checkmark:after {
+   display: block;
+ }
+ 
+ .container .checkmark:after {
+   left: 9px;
+   top: 5px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+ 

@@ -1,0 +1,28 @@
+.door-division {
+  width: 100%;
+}
+
+.beams-setting,
+.posts-setting {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.square {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  color: #848C93;
+  margin: 3.5px 2px;
+  font-size: 12px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.plus,
+.minus {
+  background-color: #CDDBE5;
+  cursor: pointer;
+  border: 0;
+}

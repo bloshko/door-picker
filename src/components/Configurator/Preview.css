@@ -1,0 +1,36 @@
+/* Section-"configurator" (below the circles) */
+.preview-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 19px;
+}
+.preview {
+  position: relative;
+  border: 1px solid #e6e6e6;
+}
+
+.preview-mode--btns-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1em 2em;
+}
+
+.preview-mode--btn {
+  display: inline-block;
+  font-size: 14px;
+  width: 40px;
+  height: 30px;
+  margin: 0;
+  border: 1px solid #6F91AA;
+  background-color: #cbcbcb;
+  cursor: pointer;
+  color: #6F91AA; 
+  outline: none;
+}
+
+.current-mode {
+  background-color: white;
+  border: 2px solid #6F91AA;
+}

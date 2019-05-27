@@ -1,0 +1,30 @@
+
+#color-setings {
+  display: inline-flex;
+}
+.round-container {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  margin: 23px 24px 0 0;
+}
+
+.round {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: auto;
+}
+.black {
+  background-color: black;
+  margin-bottom: 6px;
+}
+.gray {
+  background-color: #797474;
+  margin-bottom: 6px;
+}
+.white {
+  background-color: #F4F2F2;
+  margin-bottom: 6px;
+}

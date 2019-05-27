@@ -1,0 +1,28 @@
+#progress--border {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 40px;
+  height: 32px;
+  width: 501px;
+}
+#progress--bar {
+  margin: 7px;
+  height: 18px;
+  width: 487px;
+  max-width: 487px;
+  color: white;
+  background-color: white; 
+  border-radius: 40px;
+}
+#progress--status {
+  position: absolute;
+  display: inline-block;
+  padding: 7px;
+  top: 0;
+  right: 0;
+  color: black;
+}
+.progress {
+  text-align: center;
+  color: white;
+}

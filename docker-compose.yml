@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  express:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: door_picker
+    container_name: door-picker
+    ports:
+      - "8080:3000"
+    command: npm run-script start

@@ -1,0 +1,40 @@
+.error-bar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  color: white;
+  background-color: #F24E33;
+  padding: 30px;
+  text-align: center;
+}
+
+.close-icon {
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  top: 23px;
+  right: 31px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  z-index: 111;
+}
+ .close-icon:hover {
+  opacity: 0.8;
+}
+.close-icon:before, .close-icon:after {
+  position: absolute;
+  content: ' ';
+  height: 17px;
+  width: 2px;
+  background-color:white;
+}
+.close-icon:before {
+  transform: rotate(45deg);
+}
+.close-icon:after {
+  transform: rotate(-45deg);
+} 
+
+

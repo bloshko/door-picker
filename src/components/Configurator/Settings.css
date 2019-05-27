@@ -1,0 +1,136 @@
+/* Settings container*/
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0 0 2em;
+  justify-content: space-between;
+}
+/* Preview */
+.doors-content {
+  border: 1px solid #E6E6E6;
+  width: 590px;
+  height: 472px;
+  margin-left: 100px;
+}
+/* Settings */
+.side-content {
+  display: block;
+  height: 215px;
+  width: 153.5px;
+}
+/* Label for door type (single/double door) */
+.custom-radio {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+}
+/* Hiden radio button */
+.custom-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Door type inputs (radio buttons) */
+.settings-container .checkmark {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border: 3px solid #CDDBE5;
+  border-radius: 50%;
+}
+/* Blue circle inside checkt radio button */
+.settings-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #6991B2;
+}
+.custom-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+.custom-radio:hover input ~ .checkmark {
+  background-color: #eee;
+}
+/*  All "p" and "labels" color and font-size */
+.settings-container p ,
+.settings-container label{
+  font-size: 14px;
+  color: #848C93;
+}
+/* Door size container (width/height + input + cm) */
+
+  /* "Next/Back step" buttons*/
+.change-step-btn {
+  display: inline-block;
+  cursor: pointer;
+  height: 31px;
+  width: 126px;
+}
+.white-btn {
+  border: 1px solid #6F91AA;
+  background-color: white;
+  color: #6F91AA;
+  margin-right: 20px;
+}
+/* "Next Step" blue button */
+.blue-btn {
+  background-color: #6F91AA;
+  color: white;
+  border: none;
+}
+  /* "Next Step" blue button hover color  */
+.blue-btn:hover {
+  background-color: rgb(88, 119, 141);;
+}
+/* "3d/2d" buttons */
+.d {
+  display: inline-block;
+  font-size: 14px;
+  width: 40px;
+  height: 30px;
+  margin: 0;
+  border: 1px solid #6F91AA;
+  background-color: #cbcbcb;
+  cursor: pointer;
+  color: #6F91AA; 
+  outline: none;
+}
+/* Current "3d/2d" button color */
+.current-d {
+  background-color: white;
+  border: 2px solid #6F91AA;
+}
+
+/* Info icon (next to "door type")*/
+.info {
+  height: 10.32px;
+  width: 10.32px;
+  bottom: 0.5em;
+  position: relative;
+  cursor: pointer;
+} 
+
+.share-button {
+  display: block;
+  margin-bottom: 20.6px;
+  font-size: 10px;
+  color: white;
+  background-color: #C2CFD8;
+  border: none;
+  border-radius: 0.2em;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+}
+.share-button:hover {
+  background-color: #6F91AA;
+}

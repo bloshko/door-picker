@@ -1,0 +1,26 @@
+
+.radio-btn {
+  border: 3px solid #CDDBE5;
+}
+
+/* inputs width height */
+.cm-input{
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+  outline: none;
+  border: 1px solid #A8A5A5;
+  color: #848C93;
+  font-size: 12px;
+  padding-left: 7px;
+  margin: 0 1em;
+}
+.cm {
+  color: #848C93;
+}
+.size-input {
+  display: flex;
+  margin-bottom: 9px;
+  justify-content: space-between;
+  align-items: center;
+}
